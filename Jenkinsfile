@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/shaanman23/my-flask-app.git'
+                git branch: 'master', url: 'https://github.com/omkar701/git-hub.git'
             }
         }
 
